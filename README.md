@@ -4,16 +4,31 @@
         
 ### Compile failed (build log):
 ```
-In file included from /home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:1:
-../elfParser.h:8:10: fatal error: 'format' file not found
-#include <format>
-         ^~~~~~~~
-1 error generated.
-In file included from /home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/main.cpp:1:
-../elfParser.h:8:10: fatal error: 'format' file not found
-#include <format>
-         ^~~~~~~~
-1 error generated.
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:239:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0100000)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:246:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0000001)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:251:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0000001)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:256:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0000001)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:261:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0000001)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:266:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0100000)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:273:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0000001)
+                        ^
+/home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:278:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else if (imm_11_5 == 0b0000001)
+                        ^
+8 warnings generated.
 
 ```
 
