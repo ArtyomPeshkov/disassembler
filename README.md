@@ -4,7 +4,16 @@
         
 ### Compile failed (build log):
 ```
-clang: error: no input files
+In file included from /home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/elfParser.cpp:1:
+../elfParser.h:8:10: fatal error: 'format' file not found
+#include <format>
+         ^~~~~~~~
+1 error generated.
+In file included from /home/runner/work/spbsu-comp-arch22-lab3-ArtyomPeshkov/spbsu-comp-arch22-lab3-ArtyomPeshkov/main.cpp:1:
+../elfParser.h:8:10: fatal error: 'format' file not found
+#include <format>
+         ^~~~~~~~
+1 error generated.
 
 ```
 
