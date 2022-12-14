@@ -3,15 +3,15 @@
 
 #include <fstream>
 
-//TODO: прописать args[0] и args[1]
+//TODO: ГЇГ°Г®ГЇГЁГ±Г ГІГј args[0] ГЁ args[1]
 
 int main(int argc, char** argv) {
-	//if (argc != 3) ошибка
+	//if (argc != 3) Г®ГёГЁГЎГЄГ 
 	try {
 		ElfParser elf;
 
 		std::ofstream output;
-		output.open(argv[2]);
+		output.open(argv[2], std::ios::out);
 
 		if (!output)
 			throw IO_Exception("File failed to open");
